@@ -1,0 +1,7 @@
+web
+website
+backup
+back
+www
+wwwroot
+temp
