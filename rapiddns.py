@@ -15,7 +15,7 @@ f=open(filename,'w')
 
 pagesoup = BeautifulSoup(x.text,'lxml')
 for i in pagesoup.text.split('\n'):
-    if name in i:
+    if name in i and 'RapidDNS' not in i:
         print(i)
         f.write(i+'\n')
         
