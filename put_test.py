@@ -2,6 +2,7 @@ import requests
 import sys
 import multiprocessing
 from multiprocessing import Pool
+# put请求是否开放？
 
 def test(url,res):
     try:

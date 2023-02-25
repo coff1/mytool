@@ -1,3 +1,4 @@
+# kali添加Java环境，./java_add.sh + jdk文件夹
 mv $1 /opt/$1
 update-alternatives --install /usr/bin/java java /opt/$1/bin/java 300
 update-alternatives --set java /opt/$1/bin/java

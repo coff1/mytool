@@ -4,6 +4,8 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 import sys
+# 爬取网站的域名信息
+# python +program.py +doamin
 subdomain=list()
 
 name=sys.argv[1]

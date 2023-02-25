@@ -2,7 +2,7 @@ import tkinter as tk
 import time
 import pyperclip
 import os
-
+# 显示时间，截图用的
 
 os.environ['LC_ALL'] = 'UTF-8'
 

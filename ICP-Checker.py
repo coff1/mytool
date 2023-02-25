@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # 来源https://github.com/wongzeon/ICP-Checker
+# 可以查询ip，公司，域名等
 import re
 import os
 import cv2

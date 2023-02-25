@@ -1,5 +1,5 @@
 @echo off
-
+@REM 路径需要改成本机的jdk路径
 echo java_version:
 java -version 
 echo. 
