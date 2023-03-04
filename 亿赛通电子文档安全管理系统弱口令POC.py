@@ -81,7 +81,6 @@ def test(url):
     N.n+=1
     print("当前进度{}/{}\r".format(N.n,N.num),end="")
 
-# test("https://1.192.171.51:8443/")
 
 with ThreadPoolExecutor(max_workers=300) as t:
     for i in targets:
